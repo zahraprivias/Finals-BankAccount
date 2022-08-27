@@ -36,4 +36,4 @@ Write DML based on your ERD in prior question to show:
   | CardNumber (PK)   | Nisbah | ProfitDisAccNo | PrincipalDisAccNo | DepositTerm | ProfitDistributionTerm | ARO | IslamicContract | Zakat |
   
 ## ERD
-![alt text]([https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png ](https://github.com/zahraprivias/Finals-BankAccount/blob/a47a3832b2a669cff0164af22205876662459cec/ERD.png) "Logo Title Text 1")
+![ERD](erd.png)  
