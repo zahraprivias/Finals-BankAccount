@@ -1,13 +1,13 @@
 # Finals-BankAccount
 Final exam for the Introduction to Database course. Demonstrates ability in using SELECT, FROM, WHERE, JOIN, GROUP BY, and COUNT.
 
-# Table of Contents  
+## Table of Contents  
 - [Case] (#case)
 - [Normalization] (#normalization)
 - ERD
 - Solution
 
-# Case
+## Case
 <img src="https://github.com/zahraprivias/Finals-BankAccount/blob/d266e1faa5efc4e1cc450282ebb5726baff67fab/soal.png" alt="Image" width="490" height="320">
 
 Write DML based on your ERD in prior question to show:  
@@ -16,8 +16,8 @@ Write DML based on your ERD in prior question to show:
 3. All customers exclude Jakarta branch  
 4. All accounts of Jakarta and Tangerang branches  
 
-# Normalization
-## 3NF Normalization  
+## Normalization
+### 3NF Normalization  
 - Customer
   | **Customer**     |               |              |              |
   | ---------------- |:-------------:| :-----------:| ------------ |
