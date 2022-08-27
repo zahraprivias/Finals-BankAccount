@@ -13,6 +13,6 @@ Write DML based on your ERD in prior question to show:
 # Normalization
 ## 3NF Normalization  
 - Customer
-  | Customer                                                       |
+  | Customer         |               |              |              |
   | ---------------- |:-------------:| :-----------:| ------------ |
   | CustomerCIF (PK) | BranchID (FK) | CustomerName | CustomerType |
