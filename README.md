@@ -37,5 +37,5 @@ Write DML based on your ERD in prior question to show:
   
 ## ERD
 <p>
-    <img src="https://github.com/zahraprivias/Finals-BankAccount/blob/0df58ac7e6b0671df3e387be65c76484ad2fb6da/ERD.png" width="300" height="380"/>
+    <img src="https://github.com/zahraprivias/Finals-BankAccount/blob/0df58ac7e6b0671df3e387be65c76484ad2fb6da/ERD.png" width="300" height="340"/>
 </p>
