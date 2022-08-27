@@ -15,4 +15,14 @@ Write DML based on your ERD in prior question to show:
 - Customer
   | Customer         |               |              |              |
   | ---------------- |:-------------:| :-----------:| ------------ |
-  | CustomerCIF (PK) | BranchID (FK) | CustomerName | CustomerType |
+  | CustomerCIF (PK) | BranchID (FK) | CustomerName | CustomerType |  
+- Branch
+  | Branch        |               |            |
+  | ------------- |:-------------:| ---------- |
+  | BranchID (PK) | BranchAddress | BranchType |
+- Account
+  | Account             |                    |          |           |                |
+  | ------------------- |:------------------:|:--------:|:---------:| -------------- |
+  | CustomerCIF (PK FK) | CardNumber (PK FK) | DateOpen | DateClose | CurrentBalance |
+- AccountDetail
+  
