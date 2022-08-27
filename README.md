@@ -2,8 +2,8 @@
 Final exam for the Introduction to Database course. Demonstrates ability in using SELECT, FROM, WHERE, JOIN, GROUP BY, and COUNT.
 
 # Table of Contents  
-- Case (#case)
-- Normalization (#normalization)
+- [Case] (#case)
+- [Normalization] (#normalization)
 - ERD
 - Solution
 
