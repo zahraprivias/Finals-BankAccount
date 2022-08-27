@@ -13,16 +13,19 @@ Write DML based on your ERD in prior question to show:
 # Normalization
 ## 3NF Normalization  
 - Customer
-  | Customer         |               |              |              |
+  | **Customer**     |               |              |              |
   | ---------------- |:-------------:| :-----------:| ------------ |
   | CustomerCIF (PK) | BranchID (FK) | CustomerName | CustomerType |  
 - Branch
-  | Branch        |               |            |
+  | **Branch**    |               |            |
   | ------------- |:-------------:| ---------- |
   | BranchID (PK) | BranchAddress | BranchType |
 - Account
-  | Account             |                    |          |           |                |
+  | **Account**         |                    |          |           |                |
   | ------------------- |:------------------:|:--------:|:---------:| -------------- |
   | CustomerCIF (PK FK) | CardNumber (PK FK) | DateOpen | DateClose | CurrentBalance |
 - AccountDetail
+  | **AccountDetail** |        |                |                   |             |                        |     |                 |       |
+  | ----------------- |:------:|:--------------:|:-----------------:|:-----------:|:----------------------:|:---:|:---------------:| ----- |
+  | CardNumber (PK)   | Nisbah | ProfitDisAccNo | PrincipalDisAccNo | DepositTerm | ProfitDistributionTerm | ARO | IslamicContract | Zakat |
   
