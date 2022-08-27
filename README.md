@@ -53,5 +53,38 @@ Write DML based on your ERD in prior question to show:
      b.BranchAddress LIKE 'Surabaya'
    ```
 2. CIF and name of customer who has more than three accounts  
+   ```sql
+   SELECT
+     c.CustomerCIF, c.CustomerName,  
+     [Account] = COUNT(a.CustomerCIF)
+   FROM
+     Customer c JOIN Account a ON c.CustomerCIF = a.CustomerCIF
+   GROUP BY
+     c.CustomerCIF, c.CustomerName
+   HAVING
+     COUNT(a.CustomerCIF) > 3
+   ```
 3. All customers exclude Jakarta branch  
+   ```sql
+   SELECT *
+   FROM Customer
+   WHERE BranchID IN(
+     SELECT BranchID
+     FROM Branch
+     WHERE BranchAddress NOT LIKE 'Jakarta'
+   )
+   ```
 4. All accounts of Jakarta and Tangerang branches  
+   ```sql
+   SELECT *
+   FROM Account
+   WHERE CustomerCIF IN(
+     SELECT CustomerCIF
+     FROM Customer
+     WHERE BranchID IN(
+       SELECT BranchID
+       FROM Branch
+       WHERE BranchID LIKE 'Jakarta' OR BranchAddress LIKE 'Tangerang'
+     )
+   )
+   ```
