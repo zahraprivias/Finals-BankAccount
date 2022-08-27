@@ -42,7 +42,7 @@ Write DML based on your ERD in prior question to show:
 
 ## Solution
 1. All account details of Surabaya branch  
-   ``
+   ```
    **SELECT**
      a.CustomerCIF, c.CustomerName, a.CardNumber, a.DateOpen, a.DateClose, a.CurrentBalance, ad.Nisbah, ad.ProfitDisAccNo, ad.PrincipalDisAccNo, ad.DepositTerm, ad.ProfitDistributionTerm, ad.ARO, ad.IslamicContract, ad.Zakat  
    **FROM**
@@ -51,7 +51,7 @@ Write DML based on your ERD in prior question to show:
      AccountDetail ad **ON** a.CardNumber = ad.CardNumber  
    **WHERE**
      b.BranchAddress **LIKE** 'Surabaya'
-   ``
+   ```
 2. CIF and name of customer who has more than three accounts  
 3. All customers exclude Jakarta branch  
 4. All accounts of Jakarta and Tangerang branches  
