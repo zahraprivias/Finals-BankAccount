@@ -2,11 +2,11 @@
 Final exam for the Introduction to Database course. Demonstrates ability in using SELECT, FROM, WHERE, JOIN, GROUP BY, and COUNT.
 
 ## Table of Contents  
-  * [Table of Contents](#table-of-contents)
   * [Case](#case)
   * [Normalization](#normalization)
+  * [ERD](#erd)
+  * [Solution](#solution)
   
-
 ## Case
 <img src="https://github.com/zahraprivias/Finals-BankAccount/blob/d266e1faa5efc4e1cc450282ebb5726baff67fab/soal.png" alt="Image" width="490" height="320">
 
